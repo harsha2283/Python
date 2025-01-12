@@ -1,0 +1,16 @@
+#BP1 - |Annotations
+Resource for the Annotations uasge is seen below 
+#https://pythonsimplified.com/start-using-annotations-in-your-python-code/
+
+#BP2 - |Default argument initialization 
+for a functions parameter or argument we can give the deafult values. incase of no values given by the user then it takes the default value
+#https://www.geeksforgeeks.org/default-arguments-in-python/
+
+#BP3 - |Match case 
+if mutiple conditional checks to be done and based upon the data the operatiom changes in that case we can use this match case 
+#https://www.geeksforgeeks.org/python-match-case-statement/
+
+#BP4 - |List slicing
+Slice a list based on the indexes #list_name[start : end : step]
+#https://www.geeksforgeeks.org/python-list-slicing/
+
