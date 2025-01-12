@@ -1,4 +1,11 @@
-class EngineState():
+'''
+why self used in the class? 
+know more in the below website 
+https://www.programiz.com/article/python-self-why
+'''
+
+
+class EngineState:
     
     def __init__(self, vehicle, engine_type, condition):
         self.vehicle = vehicle
