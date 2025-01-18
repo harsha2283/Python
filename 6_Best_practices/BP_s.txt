@@ -14,3 +14,5 @@ if mutiple conditional checks to be done and based upon the data the operatiom c
 Slice a list based on the indexes #list_name[start : end : step]
 #https://www.geeksforgeeks.org/python-list-slicing/
 
+#BP5 - |fetching the path using the Os module
+fetch the current working directory using os.get_cwd()
