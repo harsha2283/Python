@@ -19,7 +19,7 @@ def gods_claw_pattern():
         return
     
     if not paid:
-        print("user had do the payment....")
+        print("user had to do the payment....")
         return
 
     if not internet:
