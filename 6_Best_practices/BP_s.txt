@@ -14,11 +14,11 @@ if mutiple conditional checks to be done and based upon the data the operatiom c
 Slice a list based on the indexes #list_name[start : end : step]
 #https://www.geeksforgeeks.org/python-list-slicing/
 
-#BP5 - |fetching the path using the Os module
-fetch the current working directory using os.get_cwd()
+#BP5 - |fetching the path using the Os module fetch the current working directory using os.get_cwd()
 
 #BP6 - |main class name should start with caps and no underscores in the class name
 
 #BP7 - |make use of the __name__ dunder method in the module files to avoid the scrap or test code running 
 
 #BP8 - |
+
