@@ -9,7 +9,6 @@ class MyScrollableCheckBoxFrame(ctk.CTkScrollableFrame):
         self.title = title
         self.check_boxes = []
         self.grid_columnconfigure(index=0, weight=1)
-    
         '''CTkScrollableFrame - will not need any new label it will take the title as a arguemnt for label name'''
         # #frame label 
         # self.title = ctk.CTkLabel(master=self, fg_color="gray30", text=self.title, corner_radius=6)
@@ -36,6 +35,7 @@ class App(ctk.CTk):
 
         self.title(string="My app")
         self.geometry("300x300") #row_size X column_size
+        self.attributes('-topmost', True) # keeps window sticked at the top
         self.columnconfigure(index=0,weight=1)
         self.rowconfigure(index=0, weight=1)
 
